@@ -1,0 +1,7 @@
+%c - character
+%s -String
+%f -floating-point number
+%o -octal number
+%i -Integer(base 10)
+%t-date/time
+%n-newline
