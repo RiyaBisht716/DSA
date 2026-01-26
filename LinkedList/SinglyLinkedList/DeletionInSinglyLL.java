@@ -95,7 +95,7 @@ public class DeletionInSinglyLL {
 
         }
 
-        int cnt = 0;
+        
         Node temp = head;
         Node prev = null;
 
@@ -126,7 +126,7 @@ public class DeletionInSinglyLL {
         head = deleteAtTail(head);
         head = deleteAtKthPosition(head,2);
         head = deleteAtValue(head,5);
-        System.out.println("Before Deletion: ");
+        System.out.println("After Deletion: ");
         printList(head);
         
 
