@@ -9,6 +9,8 @@ class ListNode {
         this.next = null;
     }
 }
+
+// ##################(TC:- O(N), SC:- O(1))#####################//
   // LinkedList class to manage list operations
 class LinkedList {
     ListNode head;
