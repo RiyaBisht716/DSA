@@ -59,7 +59,7 @@ public class DetectLoopInLL {
         // without a loop, return false
         return false;
     }
-    //chec there is loop exist using Tortoise and Hare Algorithm 
+    //check there is loop exist using Tortoise and Hare Algorithm 
     // #################### Optimal Approach:- TC-O(N), SC:- O(1)################
 
     static boolean detectLoop(ListNode head){
