@@ -15,7 +15,7 @@ class ListNode {
 public class FlattenList {
     // Function to convert a vector to a linked list
 
-    //Brute Force Solution
+    //Brute Force Solution:- Time Complexity:- O(n*M)+ O(n* mlog(n*m)) + O(n*m),    Space Complexity:- O(n*m) + O(n*m)
 
     static ListNode convertArrToLinkedList(List<Integer> arr) {
 
@@ -72,7 +72,7 @@ public class FlattenList {
 
 
 
-// Optimal Solution :-  Time Complexity:-
+// Optimal Solution :-  Time Complexity:-O(n* 2m) , Space Complexity:- O(1)
     private static ListNode merge(ListNode list1 , ListNode list2){
         ListNode dummy = new ListNode(-1);
         ListNode temp =  dummy;
