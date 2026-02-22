@@ -65,6 +65,7 @@ public class MergeKSortedList {
         PriorityQueue<ListNode> pq = new PriorityQueue<>((a,b) -> a.data - b.data);
 
         //insert first node of each list
+        //add only head od each nodes
 
         for(ListNode node : lists){
             if(node != null){
