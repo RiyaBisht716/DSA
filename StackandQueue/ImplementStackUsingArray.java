@@ -46,7 +46,7 @@ class ArrayStack{
 }
 
 
-
+//Time complexity:- O(1) and Space Complexity :- O(n)
 public class ImplementStackUsingArray {
     public static void main(String[] args) {
         ArrayStack stack = new ArrayStack(5);
