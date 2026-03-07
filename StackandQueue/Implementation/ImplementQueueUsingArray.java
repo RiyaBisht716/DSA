@@ -1,4 +1,4 @@
-package StackandQueue;
+package StackandQueue.Implementation;
 
 class ArrayQueue{
     int []arr;

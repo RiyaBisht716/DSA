@@ -1,4 +1,4 @@
-package StackandQueue;
+package StackandQueue.Implementation;
 class ArrayStack{
     private int[] arr;
     private int capacity;
