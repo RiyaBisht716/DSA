@@ -1,8 +1,6 @@
 package StackandQueue.ImplementationProblems;
 import java.util.*;
 
-
-
 // ###################### Time Complexity:- O(1) and Space Complexity:- O(N) ##############
 
 // Class to implement Minimum Stack
@@ -17,6 +15,7 @@ class MinnStack {
 
     // Method to push a value in stack
     public void push(int value) {
+        
         // If stack is empty
         if (st.isEmpty()) {
             // Update the minimum value
